@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="Brand"><img src="logo2.png" alt="spotify the music app." height="70px" width="70px"></li>
+            <li>Home</li>
+            <li>Favourites</li>
+            <li>About us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 >Spotify the music app.</h1>
+        <div class="song list"></div>
+        <div class="song listed"></div>
+        <div>
+            <div class="songItem">
+                <img src="Excusesimg.jpg" alt="1" height="20px" width="35px">
+                <span>Excuses</span>
+                <span class="songListPlay">
+                    <span>2:56</span><br>
+                </span>
+                <img src="ballerimg.jpg" alt="2" height="20px" width="35px">
+                <span>Baller</span>
+                <span class="songListPlay">
+                    <span>2:33</span>
+                </span>
+                <span>Elevated</span>
+                <span class="songListPlay">
+                    <span>2:49</span>
+                </span>
+                <span>Shape of you</span>
+                <span class="songListPlay">
+                    <span>4:28</span>
+                </span>
+                <span>The Last Ride</span>
+                <span class="songListPlay">
+                    <span>4:35</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progress" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="far fa-3x fa-play-circle"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
